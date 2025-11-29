@@ -15,6 +15,4 @@ struct Penumpang {
     adrPenumpang next;
 };
 
-void createListBis(ListBis &L);
-
 #endif // PENUMPANG_H_INCLUDED
