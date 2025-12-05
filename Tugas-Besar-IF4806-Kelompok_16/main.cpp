@@ -1,9 +1,9 @@
 #include <iostream>
+#include "main_admin.cpp"
 
 using namespace std;
 
-int main()
-{
-    cout << "Hello world!" << endl;
+int main() {
+    main_admin();
     return 0;
 }

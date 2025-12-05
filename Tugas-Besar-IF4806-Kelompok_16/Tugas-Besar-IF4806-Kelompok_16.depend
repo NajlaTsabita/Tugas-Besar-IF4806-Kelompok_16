@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1764309455 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\bis_103012330537.cpp
+
+1764309455 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\main.cpp
+	<iostream>
+
+1764309455 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\main_admin.cpp
+
+1764309455 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\main_user.cpp
+
+1764309455 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\penumpang_103012330537.cpp
+
+1764564416 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\penumpang_103012400305.cpp
+	<iostream>
+	"penumpang.h"
+
+1764566527 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\bis_103012400305.cpp
+	<iostream>
+	"bis.h"
+
+1764895551 c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\bis.h
+	<iostream>
+	"penumpang.h"
+
+1764925631 c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\penumpang.h
+	<iostream>
+
