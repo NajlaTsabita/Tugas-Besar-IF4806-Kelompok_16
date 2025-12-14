@@ -1,20 +1,7 @@
 #include <iostream>
-#include "bis.h"
+#include "header.h"
 
 using namespace std;
-
-void createListBis(ListBis &L){
-    L.first = nullptr;
-    L.last = nullptr;
-}
-
-adrBis createBis(infotypeB X){
-    adrBis B = new Bis;
-    B->info = X;
-    B->firstPenumpang = nullptr;
-    B->next = nullptr;
-    B->prev = nullptr;
-}
 
 void insertFirstBis(ListBis &L, adrBis B){
     if (L.first == nullptr && L.last == nullptr){
@@ -23,17 +10,6 @@ void insertFirstBis(ListBis &L, adrBis B){
     } else {
         B->next = L.first;
         L.first = B;
-    }
-}
-
-void insertLastBis(ListBis &L, adrBis B){
-    if (L.first == nullptr && L.last == nullptr){
-        L.first = B;
-        L.last = B;
-    } else {
-        L.last->next = B;
-        B->prev = L.last;
-        L.last = B;
     }
 }
 
@@ -100,22 +76,14 @@ void deleteAfterBis(ListBis &L, adrBis &B, adrBis prec){
     }
 }
 
-adrBis findBis(ListBis L, string kode){
-    adrBis P = L.first;
-    while (P != nullptr) {
-        if (P->info.kodeBis == kode) {
-            return P;
-        }
-        P = P->next;
-    }
-    return nullptr;
-}
-
 void showAllBis(ListBis L){
     adrBis P = L.first;
+    printf("+-----------+--------------------+----------+\n");
+    printf("| Kode Bis  |       Rute       | Kapasitas |\n");
+    printf("+-----------+--------------------+----------+\n");
     while (P != nullptr){
-        cout << "Kode Bis: " << P->info.kodeBis << endl;
-        cout << "Rute: " << P->info.rute << endl;
-        cout << "Kapasitas: " << P->info.kapasitas << endl;
+        printf("| %-9s | %-18s | %8d |\n", P->info.kodeBis, P->info.rute, P->info.kapasitas);
+        P = P->next;
     }
+    printf("+-----------+--------------------+----------+\n");
 }

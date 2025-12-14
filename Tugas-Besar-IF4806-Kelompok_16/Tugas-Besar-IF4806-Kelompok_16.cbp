@@ -32,13 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="bis.h" />
 		<Unit filename="bis_103012330537.cpp" />
 		<Unit filename="bis_103012400305.cpp" />
+		<Unit filename="header.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="main_admin.cpp" />
 		<Unit filename="main_user.cpp" />
-		<Unit filename="penumpang.h" />
 		<Unit filename="penumpang_103012330537.cpp" />
 		<Unit filename="penumpang_103012400305.cpp" />
 		<Extensions>

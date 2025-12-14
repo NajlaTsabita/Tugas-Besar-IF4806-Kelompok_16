@@ -1,27 +1,97 @@
 # depslib dependency file v1.0
 1764309455 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\bis_103012330537.cpp
 
-1764309455 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\main.cpp
+1765237612 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\main.cpp
 	<iostream>
+	"header.h"
 
-1764309455 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\main_admin.cpp
+1764935355 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\main_admin.cpp
+	<iostream>
+	"penumpang.h"
+	"bis.h"
 
 1764309455 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\main_user.cpp
 
 1764309455 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\penumpang_103012330537.cpp
 
-1764564416 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\penumpang_103012400305.cpp
+1765237612 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\penumpang_103012400305.cpp
 	<iostream>
-	"penumpang.h"
+	"header.h"
 
-1764566527 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\bis_103012400305.cpp
+1765237612 source:c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\bis_103012400305.cpp
 	<iostream>
-	"bis.h"
+	"header.h"
 
 1764895551 c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\bis.h
 	<iostream>
 	"penumpang.h"
 
-1764925631 c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\penumpang.h
+1765237497 c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\penumpang.h
 	<iostream>
+
+1764935355 c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\main_admin.cpp
+	<iostream>
+	"penumpang.h"
+	"bis.h"
+
+1765237547 c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\main.h
+
+1765237792 c:\bita\tel-u\struktur data\tugasbesar\clone\tugas-besar-if4806-kelompok_16\tugas-besar-if4806-kelompok_16\header.h
+	<iostream>
+
+1765238626 source:d:\struktur data\tugas-besar-if4806-kelompok_16\bis_103012330537.cpp
+
+1765238626 source:d:\struktur data\tugas-besar-if4806-kelompok_16\bis_103012400305.cpp
+	<iostream>
+	"header.h"
+
+1765238626 d:\struktur data\tugas-besar-if4806-kelompok_16\header.h
+	<iostream>
+
+1765238626 source:d:\struktur data\tugas-besar-if4806-kelompok_16\main.cpp
+	<iostream>
+	"header.h"
+
+1765238626 source:d:\struktur data\tugas-besar-if4806-kelompok_16\main_admin.cpp
+	<iostream>
+	"header.h"
+
+1765238626 source:d:\struktur data\tugas-besar-if4806-kelompok_16\main_user.cpp
+
+1765238626 source:d:\struktur data\tugas-besar-if4806-kelompok_16\penumpang_103012330537.cpp
+
+1765238626 source:d:\struktur data\tugas-besar-if4806-kelompok_16\penumpang_103012400305.cpp
+	<iostream>
+	"header.h"
+
+1765607517 source:c:\bita\tel-u\struktur data\tugasbesar\baru\tugas-besar-if4806-kelompok_16\bis_103012400305.cpp
+	<iostream>
+	"header.h"
+
+1765613639 c:\bita\tel-u\struktur data\tugasbesar\baru\tugas-besar-if4806-kelompok_16\header.h
+	<iostream>
+
+1765612702 source:c:\bita\tel-u\struktur data\tugasbesar\baru\tugas-besar-if4806-kelompok_16\main_admin.cpp
+	<iostream>
+	"header.h"
+
+1765607526 source:c:\bita\tel-u\struktur data\tugasbesar\baru\tugas-besar-if4806-kelompok_16\penumpang_103012400305.cpp
+	<iostream>
+	"header.h"
+
+1765612466 source:c:\bita\tel-u\struktur data\tugasbesar\baru\tugas-besar-if4806-kelompok_16\bis_103012330537.cpp
+	<iostream>
+	"header.h"
+
+1765608518 source:c:\bita\tel-u\struktur data\tugasbesar\baru\tugas-besar-if4806-kelompok_16\main.cpp
+	<iostream>
+	"header.h"
+
+1765607856 source:c:\bita\tel-u\struktur data\tugasbesar\baru\tugas-besar-if4806-kelompok_16\main_user.cpp
+	<iostream>
+	"header.h"
+
+1765612164 source:c:\bita\tel-u\struktur data\tugasbesar\baru\tugas-besar-if4806-kelompok_16\penumpang_103012330537.cpp
+	<iostream>
+	"header.h"
 

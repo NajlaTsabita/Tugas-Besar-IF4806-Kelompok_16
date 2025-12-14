@@ -1,6 +1,5 @@
 #include <iostream>
-#include "penumpang.h"
-#include "bis.h"
+#include "header.h"
 
 using namespace std;
 
@@ -114,21 +113,16 @@ void showAllPenumpang(adrBis B){
     if (P == nullptr) {
         cout << "Tidak ada penumpang dalam bis ini." << endl;
     } else {
-        cout << "Daftar Penumpang dalam Bis " << B->info.kodeBis << ":" << endl;
+        cout << "\nDaftar Penumpang dalam Bis " << B->info.kodeBis << ":" << endl;
+        cout << "========================================================================" << endl;
+        cout << "| No |        Nama         |      No KTP      | Umur |" << endl;
+        cout << "========================================================================" << endl;
+        int no = 1;
         while (P != nullptr) {
-            cout << "Nama: " << P->info.nama << ", No KTP: " << P->info.noKTP << ", Umur: " << P->info.umur << endl;
+            printf("| %-2d | %-19s | %-16s | %-4d |\n", no, P->info.nama.c_str(), P->info.noKTP.c_str(), P->info.umur);
             P = P->next;
+            no++;
         }
+        cout << "========================================================================" << endl << endl;
     }
-}
-
-int  countPenumpang(adrBis B){
-    if (B == NULL) return 0;
-    int cnt = 0;
-    adrPenumpang P = B->firstPenumpang;
-    while (P != NULL) {
-        cnt++;
-        P = P->next;
-    }
-    return cnt;
 }
