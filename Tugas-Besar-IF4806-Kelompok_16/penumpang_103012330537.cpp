@@ -26,7 +26,7 @@ int countPenumpang(adrBis B) {
 }
 
 void showAllPenumpangUnique(ListBis L) {
-    string daftar[200];
+    adrPenumpang daftar[200];
     int n = 0;
 
     adrBis B = L.first;
@@ -35,13 +35,13 @@ void showAllPenumpangUnique(ListBis L) {
         while (P != nullptr) {
             bool ada = false;
             for (int i = 0; i < n; i++) {
-                if (daftar[i] == P->info.noKTP) {
+                if (daftar[i] == P) {
                     ada = true;
                     break;
                 }
             }
             if (!ada) {
-                daftar[n++] = P->info.noKTP;
+                daftar[n++] = P;
             }
             P = P->next;
         }
@@ -53,10 +53,7 @@ void showAllPenumpangUnique(ListBis L) {
     } else {
         cout << "\n=== DAFTAR PENUMPANG (UNIK) ===\n";
         for (int i = 0; i < n; i++) {
-            cout << i + 1 << ". " << daftar[i] << endl;
+            cout << i + 1 << ". " << daftar[i]->info.nama << " (" << daftar[i]->info.noKTP << ")" << endl;
         }
     }
 }
-
-
-

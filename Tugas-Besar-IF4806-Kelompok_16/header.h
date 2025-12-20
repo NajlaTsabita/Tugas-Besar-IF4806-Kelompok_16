@@ -9,39 +9,42 @@ typedef struct infoBis infotypeB;
 typedef struct Penumpang *adrPenumpang;
 
 struct infoBis {
-    string kodeBis;
-    string rute;
-    int kapasitas;
+	string kodeBis;
+	string rute;
+	int kapasitas;
+	int harga;
 };
 
 struct Bis {
-    infotypeB info;
-    adrBis next;
-    adrBis prev;
-    adrPenumpang firstPenumpang;
+	infotypeB info;
+	adrBis next;
+	adrBis prev;
+	adrPenumpang firstPenumpang;
 };
+
 struct ListBis {
-    adrBis first;
-    adrBis last;
+	adrBis first;
+	adrBis last;
 };
 
 struct infotypeP {
-    string nama;
-    string noKTP;
-    int umur;
+	string nama;
+	string noKTP;
+	int umur;
 };
 
 struct Penumpang {
-    infotypeP info;
-    adrPenumpang next;
+	infotypeP info;
+	adrPenumpang next;
 };
 
 struct User {
-    string username;
-    string password;
-    string role;
+	string username;
+	string password;
+	string role;
 };
 
+// Fungsi Bis
 void createListBis(ListBis &L);
 adrBis createBis(infotypeB X);
 void insertFirstBis(ListBis &L, adrBis B);
@@ -54,7 +57,9 @@ adrBis findBis(ListBis L, string kode);
 void showAllBis(ListBis L);
 void deleteBisByKode(ListBis &L, string kode);
 void showBisByRute(ListBis L, string rute);
+void showData(ListBis L);
 
+// Fungsi Penumpang
 adrPenumpang createPenumpang(infotypeP X);
 void insertFirstPenumpang(adrBis B, adrPenumpang P);
 void insertLastPenumpang(adrBis B, adrPenumpang P);
@@ -64,18 +69,30 @@ void deleteLastPenumpang(adrBis B, adrPenumpang &P);
 void deleteAfterPenumpang(adrBis B, adrPenumpang &P, adrPenumpang prec);
 adrPenumpang findPenumpang(adrBis B, string noKTP);
 void showAllPenumpang(adrBis B);
-int  countPenumpang(adrBis B);
+int countPenumpang(adrBis B);
 void deleteAllPenumpang(adrBis B);
 void showAllPenumpangUnique(ListBis L);
 
+// Fungsi User
 bool login(User users[], int n, string username, string password, string &role);
 void addUser(User users[], int &n);
 void deleteUser(User users[], int &n);
 void showUsers(User users[], int n);
 
-int main_admin();
-int main_user();
+// Fungsi Validasi (DIPINDAH KE penumpang_103012400305.cpp)
+bool validateKTP(string noKTP);
+bool isKTPDuplicateInSystem(ListBis L, string noKTP);
+void deletePenumpangByKTP(ListBis &L);
 
-#endif 
+// Fungsi Validasi Bis (BARU - ada di bis_103012330537.cpp)
+bool isKodeBisDuplicate(ListBis L, string kodeBis);
 
-// BIS_H_INCLUDED
+// Fungsi Keuntungan
+int hitungTotalKeuntungan(ListBis L);
+void tampilkanKeuntungan(ListBis L);
+
+// Menu
+int main_admin(ListBis &L, User users[], int &nUser);
+int main_user(ListBis &L, User users[], int nUser);
+
+#endif
